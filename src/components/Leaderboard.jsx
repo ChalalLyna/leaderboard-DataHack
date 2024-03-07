@@ -1,8 +1,15 @@
 const LeaderboardRow = ({ rank, team, challenges }) => {
-    return (
+    
+  return (
       <tr>
-        <td>{rank}</td>
-        <td>{team}</td>
+        <td>
+        {typeof rank === 'string' && rank.endsWith('.png') ? ( 
+          <img src={rank} alt={`Rank for ${team}`} />
+        ) : (
+          rank 
+        )}
+      </td>
+      <td>{team}</td>
         {challenges.map((challenge, index) => (
         <td key={index}>{challenge}</td> 
       ))}

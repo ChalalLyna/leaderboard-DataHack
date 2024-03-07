@@ -1,7 +1,7 @@
 const leaderboardData = [
-  { rank: "#1", team: 'Team 1', challenges: [123, 123, 123, 123, 123, 123, 123, 123] },
-  { rank: "#2", team: 'Team 2', challenges: [123, 123, 123, 123, 123, 123, 123, 123] },
-  { rank: "#3", team: 'Team 3', challenges: [123, 123, 123, 123, 123, 123, 123, 123] },
+  { rank: './award.png', team: 'Team 1', challenges: [123, 123, 123, 123, 123, 123, 123, 123] },
+  { rank: './award2.png', team: 'Team 2', challenges: [123, 123, 123, 123, 123, 123, 123, 123] },
+  { rank: './award3.png', team: 'Team 3', challenges: [123, 123, 123, 123, 123, 123, 123, 123] },
   { rank: "#4", team: 'Team 4', challenges: [123, 123, 123, 123, 123, 123, 123, 123] },
   { rank: "#5", team: 'Team 5', challenges: [123, 123, 123, 123, 123, 123, 123, 123] },
   { rank: "#6", team: 'Team 6', challenges: [123, 123, 123, 123, 123, 123, 123, 123] },
