@@ -4,8 +4,8 @@ const LeaderboardRow = ({ rank, team, challenges }) => {
         <td>{rank}</td>
         <td>{team}</td>
         {challenges.map((challenge, index) => (
-          <td key={index}>{challenge ? '✔' : '❌'}</td>
-        ))}
+        <td key={index}>{challenge}</td> 
+      ))}
       </tr>
     );
   };
